@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aware City</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon-32x32.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body style="background-color: #fce9d8">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="#"><strong>Aware City</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Reports
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/pdf/Bi-Weekly-Report-One.pdf"
+                    target="_blank"
+                    >Bi-weekly Report 1</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/pdf/Bi-Weekly-Report-Two.pdf"
+                    target="_blank"
+                    >Bi-weekly Report 2</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/pdf/Bi-Weekly-Report-Three.pdf"
+                    target="_blank"
+                    >Bi-weekly Report 3</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/pdf/Bi-Weekly-Report-Four.pdf"
+                    target="_blank"
+                    >Bi-weekly Report 4</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/pdf/Bi-Weekly-Report-Five.pdf"
+                    target="_blank"
+                    >Bi-weekly Report 5</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/pdf/CSCI457-AwareCity-FinalReport.pdf"
+                    target="_blank"
+                    >Final Report</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/pdf/AwareCity-Presentation.pdf"
+                target="_blank"
+                >Presentation</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.youtube.com/watch?v=fA5dvDbZGsI&ab_channel=Shajid"
+                target="_blank"
+                >Demo</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/fredygsorto/AwareCityReactNativeProject"
+                target="_blank"
+                >GitHub Repository</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Empowering individuals in need today</h1>
+          <h3>NYIT CSCI 456 Senior Project 2022-2023</h3>
+        </div>
+        <div class="col-lg-6">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+              ></li>
+              <li
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/images/iphone_mapscreen.png"
+                  class="d-block mx-auto w-50"
+                  alt="Screenshot 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/images/iphone_homescreen.png"
+                  class="d-block mx-auto w-50"
+                  alt="Screenshot 2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/iphone_charityscreen.png"
+                  class="d-block mx-auto w-50"
+                  alt="Screenshot 3"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="https://cdn.glitch.global/56a8c035-0108-4f50-9bef-79a25257e672/IMG_0372_Original.jpg?v=1683603904066"
+              class="card-img-top mt-4"
+              alt="Brenda"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Brenda Encarnacion</h5>
+              <p class="card-text">Role: Full Stack Developer</p>
+              <p class="card-text">
+                I was a full stack developer for AwareCity. My main contribution
+                for this project was creating the Charity tab. I was also
+                resposible for the Queens data within the map screen. I created
+                the website to display our applications progress and individual
+                contributions
+              </p>
+              <div class="d-flex">
+                <a
+                  href="https://www.linkedin.com/in/brenda-encarnacion-233570125/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i> LinkedIn</a
+                >
+                <a
+                  href="https://github.com/techiebren"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="https://cdn.glitch.global/56a8c035-0108-4f50-9bef-79a25257e672/Shajid%20Website.JPEG?v=1682625632165"
+              class="card-img-top mt-4"
+              alt="Student 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Shajid Muntaser</h5>
+              <p class="card-text">Role: Full Stack Developer</p>
+              <p class="card-text">
+                I took upon the role as a full stack developer for AwareCity. I
+                built the application architecture and helped with both the
+                UI/UX of the application as well as implementing the API's that
+                were used.
+              </p>
+              <div class="d-flex">
+                <a
+                  href="https://www.linkedin.com/in/shajid-muntaser/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i> LinkedIn</a
+                >
+                <a
+                  href="https://www.github.com/vaderlock"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="https://cdn.glitch.global/56a8c035-0108-4f50-9bef-79a25257e672/FredyAwareCity.jpeg?v=1683523353537"
+              class="card-img-top mt-4"
+              alt="Student 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fredy Sorto</h5>
+              <p class="card-text">Role: Full Stack Developer</p>
+              <p class="card-text">
+                My responsibilities included designing the app's user interface
+                layout, developing the map screen, and optimizing it for maximum
+                performance. I used Google Maps to display markers for the
+                various resource locations, incorporated a carousel feature for
+                easier navigation, and included the user's location.
+                Furthermore, I designed the data structure that efficiently
+                managed and presented the information on the different resources
+                available to the app's users.
+              </p>
+              <div class="d-flex">
+                <a
+                  href="https://www.linkedin.com/in/fredysorto/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i> LinkedIn</a
+                >
+                <a
+                  href="https://github.com/fredygsorto"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer bg-dark text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <h5>About Us</h5>
+            <p>
+              Introducing "AwareCity," our mobile app designed to assist the
+              homeless community in New York. It includes three tabs: Home, Map,
+              and Charity. The Home tab offers Hotlines, FAQs, and an About Us
+              page. The Map displays shelters and food resources on a
+              color-coded map of NYC. Lastly, the Charity tab lists
+              organizations dedicated to helping the community.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h5>Contact Us</h5>
+            <p>Email: bencar01@nyit.edu</p>
+            <p>Email: smuntase@nyit.edu</p>
+            <p>Email: fsorto@nyit.edu</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center mt-4">
+            <span>&copy; 2023 Aware City. All rights reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
